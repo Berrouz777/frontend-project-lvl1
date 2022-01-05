@@ -1,19 +1,16 @@
 import readlineSync from 'readline-sync';
 
 const ROUND_COUNT = 3;
-const getRandomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
-const isEven = (number) => number % 2 === 0;
 
-export default () => {
+export default (rule, logicGame) => {
   console.log('Welcome to the Brain Games!');
   const userName = readlineSync.question('May I have your name?');
   console.log(`Hello, ${userName}!`);
-  console.log('Answer "yes" if the number is even, otherwise answer "no".');
+  console.log(rule);
 
   for (let i = 0; i < ROUND_COUNT; i += 1) {
-    const randomNumber = getRandomNumber(0, 100);
-    const correctAnswer = isEven(randomNumber) ? 'yes' : 'no';
-    console.log(`Question: ${randomNumber}`);
+    const [question, correctAnswer] = logicGame();
+    console.log(`Question: ${question}`);
     const userAnswer = readlineSync.question('Your answer: ');
 
     if (correctAnswer !== userAnswer) {

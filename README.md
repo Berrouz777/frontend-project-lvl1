@@ -6,4 +6,8 @@
 [![Node CI](https://github.com/Berrouz777/frontend-project-lvl1/actions/workflows/nodejs.yml/badge.svg)](https://github.com/Berrouz777/frontend-project-lvl1/actions/workflows/nodejs.yml)
 
 ### Game-demo:
+**brain-even (click screen)**
 [![asciicast](https://asciinema.org/a/459893.png)](https://asciinema.org/a/459893)
+
+**brain-calc (click screen)**
+[![asciicast](https://asciinema.org/a/460009.png)](https://asciinema.org/a/460009)
