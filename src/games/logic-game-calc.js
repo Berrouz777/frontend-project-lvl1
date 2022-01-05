@@ -23,6 +23,7 @@ const logicCalc = () => {
   const randomNumber2 = getRandomNumber(0, 10);
   const correctAnswer = String(equation(randomNumber1, randomOperator, randomNumber2));
   const question = `${randomNumber1} ${randomOperator} ${randomNumber2}`;
+
   return [question, correctAnswer];
 };
 

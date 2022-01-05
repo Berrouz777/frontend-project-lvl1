@@ -11,3 +11,6 @@
 
 **brain-calc (click screen)**
 [![asciicast](https://asciinema.org/a/460009.png)](https://asciinema.org/a/460009)
+
+**brain-gcd (click screen)**
+[![asciicast](https://asciinema.org/a/460064.png)](https://asciinema.org/a/460064)
