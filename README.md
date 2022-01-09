@@ -15,5 +15,8 @@
 **brain-gcd (click screen)**
 [![asciicast](https://asciinema.org/a/460064.png)](https://asciinema.org/a/460064)
 
-**brain-progression**
+**brain-progression(click screen)**
 [![asciicast](https://asciinema.org/a/460694.png)](https://asciinema.org/a/460694)
+
+**brain-prime(click screen)**
+[![asciicast](https://asciinema.org/a/460760.png)](https://asciinema.org/a/460760)
