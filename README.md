@@ -1,7 +1,7 @@
 # Hexlet tests and linter status:
 
 [![Actions Status](https://github.com/Berrouz777/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/Berrouz777/frontend-project-lvl1/actions)
-[![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
+[![Maintainability](https://api.codeclimate.com/v1/badges/9282690776eee4ab1b6f/maintainability)](https://codeclimate.com/github/Berrouz777/frontend-project-lvl1/maintainability)
 [![Node CI](https://github.com/Berrouz777/frontend-project-lvl1/actions/workflows/nodejs.yml/badge.svg)](https://github.com/Berrouz777/frontend-project-lvl1/actions/workflows/nodejs.yml)
 
 # Discription:
