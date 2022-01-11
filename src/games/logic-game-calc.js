@@ -1,7 +1,7 @@
 import mainLogic from '../index.js';
 import getRandomNumber from '../getRandomNumber.js';
 
-const GAME_RULE = 'What is the result of the expression?';
+const gameRule = 'What is the result of the expression?';
 const operations = ['*', '-', '+'];
 
 const equation = (number1, operator, number2) => {
@@ -27,4 +27,4 @@ const logicCalc = () => {
   return [question, correctAnswer];
 };
 
-export default () => mainLogic(GAME_RULE, logicCalc);
+export default () => mainLogic(gameRule, logicCalc);

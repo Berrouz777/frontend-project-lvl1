@@ -1,7 +1,7 @@
 import mainLogic from '../index.js';
 import getRandomNumber from '../getRandomNumber.js';
 
-const GAME_RULE = 'What number is missing in the progression?';
+const gameRule = 'What number is missing in the progression?';
 
 const logicProgression = () => {
   const firstNumber = getRandomNumber(1, 99);
@@ -20,4 +20,4 @@ const logicProgression = () => {
   return [question, correctAnswer];
 };
 
-export default () => mainLogic(GAME_RULE, logicProgression);
+export default () => mainLogic(gameRule, logicProgression);

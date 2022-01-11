@@ -1,7 +1,7 @@
 import mainLogic from '../index.js';
 import getRandomNumber from '../getRandomNumber.js';
 
-const GAME_RULE = 'Answer "yes" if given number is prime. Otherwise answer "no".';
+const gameRule = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
 const isPrime = (number) => {
   if (number < 2) {
@@ -25,4 +25,4 @@ const logicPrime = () => {
   return [question, correctAnswer];
 };
 
-export default () => mainLogic(GAME_RULE, logicPrime);
+export default () => mainLogic(gameRule, logicPrime);
