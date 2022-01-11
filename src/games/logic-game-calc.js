@@ -18,7 +18,7 @@ const equation = (number1, operator, number2) => {
 };
 
 const logicCalc = () => {
-  const randomOperator = operations[Math.floor(Math.random() * operations.length)];
+  const randomOperator = operations[getRandomNumber(0, operations.length - 1)];
   const randomNumber1 = getRandomNumber(0, 10);
   const randomNumber2 = getRandomNumber(0, 10);
   const correctAnswer = String(equation(randomNumber1, randomOperator, randomNumber2));
